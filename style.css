@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100vh;
+}
+/*Estilizacao do topo */
+.cabecalho{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.cabecalho .lista-0{
+    display: flex;
+    
+
+}
+.cabecalho .lista-0 li{
+    list-style: none;
+    padding:15px;
+    display: block;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.cabecalho .lista-0 li:hover{
+    background-color: #c0c0c0;
+    color: #000;
+    cursor: pointer;
+    
+    
+}
+
+/*Estilizacao Topo parte 2 */
+.menu-1{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding: 10px;
+}
+.menu-1 .lista-1{
+    display: flex;
+}
+.menu-1 .lista-1 li{
+    padding: 10px 15px;
+    list-style: none;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu-1 .lista-1 li:hover{
+    background-color: #c0c0c0;
+    cursor: pointer;
+    color: #000;
+}
+.inp{
+    max-width: 150px;
+    
+}
+.inp input{
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    padding: 5px 10px;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+}
+
+/* Estilizacao das Redes Sociais */
+.redes-sociais{
+    background-color: #fff;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes-sociais .col-1{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    
+    
+}
+.redes-sociais .lista-2{
+    display: flex;
+}
+.redes .lista-2 img{
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.055);
+    border-radius:3px  ;
+}
+.redes-sociais .lista-2 li{
+    padding: 5px 2px;
+    list-style: none;
+    /* filter: grayscale(100%); */
+}
+.redes-sociais .lista-2 li:hover{
+    filter: grayscale(0);
+}
+.redes {
+text-align: center;
+}
+.redes .partilhar{
+    opacity: .8;
+}
+/* Estilizacao imagem-1 */
+.imagem-1{
+    background-image: linear-gradient(to right, #6e120a, #070707);
+    color: #fff;
+    padding: 10px;
+}
+.imagem-1 .power{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 20px;
+
+}
+.imagem-1 .power img:hover{
+    transform: scale(1.02);
+    cursor: move;
+
+}
+.imagem-1 .texto{
+    
+    width: 50%;
+    padding: 10px 15px;
+    align-self: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*Estilizacao barra estatica */
+
+.barra-estatica{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.barra-estatica .lista-3 {
+    display: flex;
+    text-transform: uppercase;
+}
+.barra-estatica .lista-3 li{
+    list-style: none;
+    text-decoration: underline;
+    padding: 15px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.barra-estatica .lista-3 li a{
+    color: #000;
+}
+
+/* Estilizacao Frames */
+.fidelity{
+    background-image: linear-gradient(to right, #070707 10%, #6e120a 90%);
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fidelity .super{
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fidelity .frames{
+    padding: 15px;
+    
+}
+.fidelity .frames .box-1{
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+}
+.fidelity .frames button{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 45px;
+    background-color: transparent;
+    border: 2px solid #c0c0c0;
+    font-weight: 700;
+}
+.fidelity .frames button:hover{
+    background-color: #c0c0c0;
+    color: #000;
+    cursor: pointer;
+}
+/* Estiliacao Frames parte 2 */
+.super-box-feat{
+    background-color: #000;
+}
+.caixa-titulo-feat{
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+    
+}
+.featured{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+
+.featured .desk{
+    padding: 15px;
+    max-width: 250px;
+    width: 100%;
+    
+   
+}
+.featured .desk img{
+    transition: .4s;
+    padding: 15px;
+}
+.featured .desk img:hover{
+    transform: scale(1.2);
+
+    cursor: pointer;
+}
+.featured .desk h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    padding: 15px 0;
+ }
+ 
+ .featured .desk li{
+     margin-left: 20px;
+     text-indent: -5px;
+     font-size: 12px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     opacity: .7;
+     padding: 2px;
+ }
+ .featured .desk button{
+     display: block;
+     padding: 10px 30px;
+     font-size: 16px;
+     margin: 30px 0;
+     background-color: transparent;
+     border: 2px solid #c0c0c0;
+     color: #fff;
+     outline: none;
+     text-transform: uppercase;
+     width: 90%;
+ }
+ .featured .desk button:hover{
+     background-color: #c0c0c0;
+    color: #000;
+    cursor: pointer;
+ }
+ .feat-1 button{
+     display: block;
+     
+ }
+ /*Estilizacao Featured parte 2 */
+ .featured-2{
+     width: 100%;
+     background-image: radial-gradient(#6e120a, #070707);
+     color: #fff;
+     padding: 30px;
+     box-sizing: border-box;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+ }
+ .centre > img{
+     border-radius: 10px;
+     width: 200px;
+     
+ }
+  .centre{
+     text-align: center;
+     
+ }
+ .both p{
+     padding: 10px 0;
+     font-size: 12px;
+     opacity: .7;
+ }
+ .featured-2  button{
+     display: block;
+     margin: 20px 0;
+     padding: 10px 25px;
+     text-transform: uppercase;
+     align-self: flex-end;
+     color: #fff;
+     background-color: transparent;
+     border: 2px solid #c0c0c0;
+
+ }
+ .featured-2  button:hover{
+     background-color: #c0c0c0;
+     cursor: pointer;
+     color: #000;
+ }
+ .featured-2  .col-feat-2:last-child button{
+     position: relative;
+     bottom: -22%;
+    
+ }
+
+ /* Notas de rodapé */
+
+ .footnotes{
+     background-color: #fff;
+     padding: 15px 20px;
+     font-weight: 600;
+     text-transform: uppercase;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .footnotes p a{
+     text-decoration: none;
+     padding: 10px;
+     color: #000;
+     margin-bottom: 10px;
+     font-size: 14px;
+ }
+
+
+
+ /* Rodape */
+
+ .box-footer{
+     background-color: #000;
+     color: #c0c0c0;
+     padding: 25px 50px;
+ }
+
+ .box-footer .box-footer-1 ul{
+     display: flex;
+ }
+ .box-footer .box-footer-1 ul li {
+     padding: 10px 15px;
+     list-style: none;
+     text-indent: -15px;
+ }
+ .box-footer .linha-footer-1{
+     margin-bottom: 2px;
+     opacity: .6;
+     color: #ccc;
+ }
+
+ .box-footer .box-footer-2 ul{
+     display: flex;
+ }
+ .box-footer .box-footer-2 ul img {
+     margin-top: 40px;
+     width: 30px;
+     height: 30px;
+     filter: grayscale(100%);
+ }
+ .box-footer .box-footer-2 ul li {
+    padding: 10px 15px;
+    list-style: none;
+    text-indent: -15px;
+   
+}
+.box-footer .box-footer-2 ul li a{
+    text-decoration: none;
+    color: #c0c0c0;
+}
+
+.box-footer .linha-footer-2{
+    margin-bottom: 25px;
+    opacity: .6;
+    color: #ccc;
+}
+
+
+.box-footer-3 .paragrafo-2 a{
+    font-size: 12px;
+    color: #c0c0c0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.box-footer-3 .paragrafo-2 a + a{
+    margin-right: 12px;
+
+
+}
